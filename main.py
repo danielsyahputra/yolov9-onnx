@@ -81,7 +81,7 @@ if __name__=="__main__":
     parser.add_argument("--score-threshold", type=float, required=False, default=0.1)
     parser.add_argument("--conf-threshold", type=float, required=False, default=0.4)
     parser.add_argument("--iou-threshold", type=float, required=False, default=0.4)
-    parser.add_argument("--image", action="store_true", required=False)
+    parser.add_argument("--image", action="store_true", required=False, help="Image inference mode")
     parser.add_argument("--video", action="store_true", required=False)
     parser.add_argument("--show", required=False, type=bool, default=True, help="Show result on pop-up window")
     parser.add_argument("--device", type=str, required=False, help="Device use (cpu or cude)", choices=["cpu", "cuda"], default="cpu")

@@ -1,0 +1,16 @@
+hydra-core
+PyYAML
+python-dotenv
+pyrootutils
+opencv-python-headless
+numpy
+openvino-dev[onnx]
+matplotlib
+colorlog
+Pillow
+scipy
+ipyfilechooser
+onnx
+onnxruntime
+requests
+pandas
